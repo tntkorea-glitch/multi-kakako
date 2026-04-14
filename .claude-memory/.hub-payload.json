@@ -1,0 +1,11 @@
+{
+  "project_slug": "multi-kakako",
+  "project_name": "multi-kakako",
+  "project_description": "카카오 계열 멀티 연동 웹 프로젝트 (초기 셋업 단계)",
+  "status": "active",
+  "progress_percent": 15,
+  "today_work": "- Next.js(App Router) + TS + Tailwind 신규 프로젝트 초기 셋업 (/new 스킬)\n- GitHub 레포 생성 + Vercel 프로젝트 연결 (tntkorea-4169s-projects/multi-kakako)\n- setup.sh (gitleaks pre-commit) / .claude/settings.json (자동 pull·commit·push 훅) / inapp-guard.js 기본 적용\n- NextAuth v5 신규 셋업 (/login 스킬): Google + Credentials provider, 카카오/네이버는 '준비중' alert 버튼\n- 개발 포트 3201 고정 (package.json dev/start + 메모리 기록)\n- /new·/login 스킬에 '프로젝트별 고유 포트 지정' 규칙을 항구적으로 추가 (2.5단계)",
+  "remaining_work": "- Google Cloud Console 에서 OAuth 클라이언트 생성 → Client ID/Secret 발급\n- .env.local 및 Vercel 환경변수에 AUTH_GOOGLE_ID / AUTH_GOOGLE_SECRET 입력\n- 리디렉션 URI 등록 (localhost:3201 + vercel 도메인)\n- Credentials provider authorize 로직 (사용자 저장소 결정 후 구현)\n- 카카오 / 네이버 실제 OAuth 연동 (현재 UI 버튼만 존재)\n- 실제 서비스 기능 기획 및 구현 (프로젝트 방향성 미확정)",
+  "next_work": "- Google OAuth 클라이언트 발급 후 Client ID/Secret을 .env.local + Vercel에 주입\n- 구글 로그인 동작 확인 (http://localhost:3201/login)\n- 이 프로젝트가 실제로 제공할 서비스/기능 범위 정의",
+  "raw_markdown": "# multi-kakako 세션 종료 보고 (2026-04-15)\n\n## 오늘 한 일\n- `/new` 스킬로 Next.js + TS + Tailwind + Vercel 초기 셋업 완료\n- GitHub 레포 tntkorea-glitch/multi-kakako 생성 및 Vercel 링크\n- `/login` 스킬로 NextAuth v5 Google + Credentials provider 셋업, 카카오/네이버는 준비중 버튼\n- 개발 포트 **3201** 고정\n- `/new`·`/login` 스킬에 프로젝트별 고유 포트 지정 규칙 추가 (향후 재사용)\n\n## 배포 상태\n- 최신 커밋: b554d03 (master, pushed)\n- Vercel: auto-commit push 로 자동 빌드 트리거됨\n\n## 진행률\n- **15%** — 환경 셋업 완료, 서비스 기능은 아직 정의 전 단계\n\n## 다음 세션에 할 일\n1. Google OAuth Client 발급 + 환경변수 입력\n2. 로그인 동작 확인\n3. 프로젝트 방향성/기능 정의\n"
+}
