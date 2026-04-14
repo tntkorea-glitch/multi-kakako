@@ -10,6 +10,7 @@ originSessionId: 12947b47-2f63-41bd-a63f-6cca84f31226
 - GitHub: https://github.com/tntkorea-glitch/multi-kakako (public)
 - 스택: Next.js (App Router) + TypeScript + Tailwind + ESLint, src-dir 구조
 - 배포: Vercel (vercel.json 기본 설정)
+- **개발 포트: 3201 고정** (npm run dev / start 모두 -p 3201) — 다른 프로젝트와 충돌 방지. Google OAuth 리디렉션도 localhost:3201 사용
 - 기본 가드: 인앱 브라우저 가드 (public/inapp-guard.js, layout.tsx beforeInteractive)
 - 자동화: setup.sh (gitleaks + pre-commit hook + npm install + vercel env pull), .claude/settings.json (SessionStart pull, Stop auto commit/push)
 
