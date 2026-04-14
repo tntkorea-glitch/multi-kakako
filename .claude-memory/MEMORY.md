@@ -1,0 +1,2 @@
+- [User profile](user_profile.md) — 한국어 사용, Windows 개발 환경, Next.js 기반 작업
+- [Project init](project_init.md) — multi-kakako 프로젝트 초기 셋업 (2026-04-14)
