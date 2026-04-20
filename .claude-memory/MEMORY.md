@@ -1,2 +1,4 @@
 - [User profile](user_profile.md) — 한국어 사용, Windows 개발 환경, Next.js 기반 작업
 - [Project init](project_init.md) — multi-kakako 프로젝트 초기 셋업 (2026-04-14)
+- [PowerShell BOM rule](feedback_powershell_bom.md) — 한글 포함 .ps1 은 UTF-8 with BOM 필수 (PS 5.1 CP949 오독)
+- [claude-config bootstrap pending](project_claude_config_bootstrap.md) — a0109 PC 재클론/셋업 결과 확인 대기 (commit 166f785)
